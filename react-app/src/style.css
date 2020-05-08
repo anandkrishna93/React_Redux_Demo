@@ -1,0 +1,452 @@
+html, html body {
+    background-color: #eee;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+.auth_page_style {
+  display: flex;
+  flex-direction: column;
+}
+.auth_page_style .auth_header_style {
+  text-align: center;
+  background-color: #337ab7;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.main_header_style {
+  background-color: #337ab7;
+  min-height: 45px;
+}
+.main_header_style .mdl-layout__header-row {
+  padding: 0px 20px 0 15px;
+  height: 45px;
+}
+.main_header_style .mdl-layout__header-row button {
+  height: 45px;
+  background-color: transparent;
+  color: #fff;
+  text-transform: capitalize;
+  padding: 0 10px;
+}
+.main_footer_style {
+  padding: 1px 15px;
+  background-color: #444;
+  position: relative;
+  z-index: 99;
+}
+.main_footer_style ul li {
+  line-height: 30px;
+}
+.main_footer_style ul li i {
+  color: #fff;
+  font-size: 11px;
+}
+.main_footer_style ul li a {
+  color: #2CFCE8;
+  font-size: 12px;
+}
+.main_footer_style ul li a:hover, .main_footer_style ul li a:focus {
+  color: #2CFCE8;
+}
+.page-content {
+    height: 100%;
+}
+.page-content .panel {
+  padding: 0px;
+  border: 0px;
+  margin-bottom: 0px;
+}
+.page-content .panel .panel-body {
+  overflow-x: auto;
+}
+header.mdl-layout__header {
+  display: block;
+}
+.material_drawer_style {
+  width: 250px;
+}
+.mdl-layout__drawer nav .MuiListItemIcon-root, .material_drawer_style ul .MuiListItemIcon-root {
+  min-width: 30px; color: #5a4848;
+}
+.mdl-layout__drawer nav .MuiListItemText-inset, .material_drawer_style ul .MuiListItemText-inset {
+  padding: 0px;
+}
+.mdl-layout__drawer nav a, .material_drawer_style ul a {
+  color: #000;
+}
+.mdl-layout__drawer nav a:hover, .material_drawer_style ul a:hover, .mdl-layout__drawer nav a:hover .MuiListItemIcon-root, .material_drawer_style ul a:hover .MuiListItemIcon-root {
+  color: #337ab7;
+}
+.material_drawer_style ul a:focus {
+  outline: none;
+}
+.activeMenu {
+  background: #eee !important;
+  color: #980b0b !important;
+}
+.material_drawer_style ul .activeMenu .MuiListItemIcon-root {
+  color: #980b0b !important;
+}
+.mdl-layout__drawer-button {
+  color: #fff !important;
+  height: 30px;
+  width: 30px;
+  line-height: 40px;
+  left: 50px
+}
+.material_drawer_style .mdl-layout-title {
+  background-color: #337ab7;
+  color: #fff;
+  font-weight: 500;
+  min-height: 45px;
+  padding: 10px 15px 10px 20px;
+  font-size: 14px;
+}
+.material_drawer_style .mdl-layout-title .bar-icon {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  cursor: pointer;
+}
+.material_drawer_style .mdl-layout-title span img {
+  padding-right: 10px;
+}
+.btn-default {
+  border-color: #337ab7;
+  color: #337ab7;
+}
+.btn-link {
+    color: #337ab7; outline: none !important; text-decoration: none !important;
+}
+.btn-close-icon {
+    color: #ff0000; outline: none !important; text-decoration: none !important;
+    font-weight: 600; font-size: 14px; padding: 7px;
+}
+.btn-circle {
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    padding: 8px 0;
+    font-size: 12px;
+    line-height: 1.428571429;
+    border-radius: 50%;
+    border: 2px solid #337ab7;
+}
+.btn-circle.focus, .btn-circle:focus, .btn-circle:hover, .btn-circle:active:focus {
+    color: #fff;
+    background: #337ab7;
+    outline: none;
+}
+logout_button button {
+  padding-right: 0px;
+}
+.labelheading h6 {
+    margin: 0 0 10px 0px;
+    background: #ddd;
+    padding: 2px 10px;
+    font-size: 14px;
+}
+.p0 { padding: 0; }
+.pl5 { padding-left: 5px; }
+.mr5 { margin-right: 5px; }
+a { cursor: pointer; color: #980b0b; }
+a:focus, a:hover { text-decoration: none; }
+.errorMsgStyle {
+    color: red;
+    position: absolute;
+    font-size: 13px;
+}
+form legend {
+    border-bottom: 0;
+}
+.form-group {
+  margin-bottom: 20px;
+}
+.custom-form-style .customInputStyle {
+    margin: 8px 0px !important;
+    width: 100%;
+}
+.custom-form-style .customInputStyle label {
+  color: inherit;
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 15px;
+}
+.exampleJSONBox {
+    width: 100%;
+    height: 215px;
+    padding: 20px;
+    color: #fff;
+    background-color: #0f273e;
+    border: 2px solid #0f273e;
+    border-radius: 5px;
+}
+pre {
+  margin-bottom: 0px;
+  color: #fff;
+  background-color: #0f273e;
+}
+.form-horizontal.custom-horizontal-form .form-group {
+  margin-right: 0;
+  margin-left: 0;
+}
+.form-control {
+  font-size: inherit;
+}
+
+.rle-rl-view{
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 5px;
+  display: block;
+  -webkit-box-shadow: -1px 10px 10px -14px rgba(0,0,0,0.69);
+    -moz-box-shadow: -1px 10px 10px -14px rgba(0,0,0,0.69);
+    box-shadow: -1px 10px 10px -14px rgba(0,0,0,0.69);
+}
+.msg-label-heading {
+  color: #fff;
+  width: 100%;
+  margin: 10px 0px;
+  padding: 10px 20px;
+}
+.new-services{
+  border-bottom: 2px solid #8c8b8b;
+}
+.loader-span{
+    right: 43%;
+    text-align: center;
+    display: block;
+    top: 41%;
+    font-weight: 600;
+    position: relative;
+}
+.pagination {
+  margin: 0px 0px 5px 0px;
+}
+.SpinnerOpacity {
+  position: absolute;
+  width: 100%;
+  height: calc(100% - 60px);
+  background-color: #ffffffa3;
+  z-index: 999;
+}
+.CircularProgressStyle {
+  position: fixed;
+  left: 49%;
+  top: 49%;
+  color: #b00b0b !important;
+}
+.listItemIconStyle {
+  margin-right: 5px !important;
+}
+.listItemIconStyle svg {
+  font-size: 20px;
+}
+.iframe-container {
+  margin: -20px -20px 0px -20px;
+}
+.iframe-container iframe {
+   border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;
+}
+.custom-Menu-style ul li {
+  line-height: 30px;
+  min-height: 30px;
+  font-size: 13px;
+}
+.openApiMenusStyle .MuiIconButton-root {
+  font-size: 14px;
+}
+.custom-Menu-style .MuiPopover-paper {
+  margin-top: 29px;
+  min-width: 120px !important;
+}
+table tr .maxWidthColumn {
+  max-width: 390px;
+}
+table tr .icons {
+  text-align: center;
+}
+.custom_modal_style {
+  outline: none;
+  padding: 15px;
+  position: absolute;
+  box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.2), 0px 5px 8px 0px rgba(0,0,0,0.14), 0px 1px 14px 0px rgba(0,0,0,0.12);
+  background-color: #fff;
+}
+.custom_modal_style.modal_xl {
+  top: 30px;
+  width: 90%;
+  left: 5%;
+}
+.custom_modal_style.modal_lg {
+  top: 45px;
+  width: 80%;
+  left: 10%;
+}
+.custom_modal_style.modal_sm {
+  top: 30%;
+  width: 30%;
+  left: 52%;
+  transform: translate(-52%, -52%);
+}
+.custom_modal_style .modal_close {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  z-index: 99;
+  width: 23px;
+  height: 23px;
+  text-align: center;
+  border-radius: 50%;
+  line-height: 33px;
+  background-color: #fff;
+}
+.custom_modal_style .modal_close:hover {
+  color: #fff;
+  background-color: #000;
+}
+.custom_modal_style .modal_close span {
+  font-size: 1.2em;
+  font-weight: 600;
+}
+.custom_modal_style pre {
+  max-height: 80vh;
+  overflow: auto;
+}
+.MuiSnackbar-root.MuiSnackbar-anchorOriginBottomLeft {
+  bottom: 35px;
+}
+.helpMenu_style {
+  position: relative;
+  height: 45px;
+}
+.helpMenu_style .MuiListItem-button {
+  position: fixed;
+  bottom: 0px;
+  width: 250px;
+  background-color: #337ab7 !important;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+}
+.helpMenu_style span {
+  font-weight: 500;
+  color: #fff;
+}
+.help_content {
+  height: 80vh;
+}
+.custom_table_style {
+  width: 100%;
+  margin-bottom: 5px;
+}
+.custom_table_style table {
+  min-width: 500px;
+}
+.custom_table_style .tableWrapper {
+  overflow-X: auto;
+}
+.custom_table_style .MuiTypography-h6 {
+  color: #980b0b;
+}
+.custom_table_style .MuiTableCell-head {
+  font-size: 1rem;
+  color: #1f1179;
+}
+.custom_table_style .MuiTableHead-root {
+  background: #eee;
+}
+.custom_table_style .MuiTableCell-root {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  max-width: 300px;
+  word-wrap: break-word;
+}
+.custom_table_style .pagination {
+  flex-shrink: 0
+}
+.custom_table_style .MuiToolbar-gutters {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.monitor_header_details    {
+  display: flex;
+  background-color: #b3eefa8f !important;
+}
+.monitor_header_details .monitor_details_label {
+  padding: 5px;
+  flex: 4;
+}
+.monitor_body_details {
+  padding: 0;
+}
+.tamp-placholder-style a.placholder-close {
+  position: absolute; right: 5px;
+}
+.table_NoData_style {
+  color: #337ab7 !important;
+  text-align: center !important;
+  font-weight: 500 !important;
+  font-size: 1.1em !important;
+}
+.right-panel-action {
+  text-align: right;
+  padding: 0px
+}
+.right-panel-action .search-input-box {
+  max-width: 200px;
+  display: inline-block;
+  position: relative;
+  top: 2px;
+  margin-right: 10px;
+}
+.right-panel-action .search-input-box .form-control {
+  border: 0px;
+  border-bottom: 1px solid #1f1179;
+  border-radius: 0px;
+  background-color: transparent;
+  box-shadow: none;
+}
+.right-panel-action .search-input-box input {
+  width: 90px;
+  height: 30px;
+  -webkit-transition: width 0.5s; /* For Safari 3.1 to 6.0 */
+  transition: width 0.5s;
+  padding-left: 25px;
+}
+.right-panel-action .search-input-box input:focus {
+  width: 200px;
+  outline: none;
+  border-color: #66afe9;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+}
+.right-panel-action .search-input-box i {
+  position: absolute;
+  top: 3px;
+  left: 2px;
+  color: #1f1179;
+  background: transparent;
+  padding: 5px;
+  cursor: pointer;
+}
+.table-heading {
+  padding: 0px;
+}
+.table-heading h5 {
+  color: #980b0b;
+  margin: 5px 0px;
+  font-size: 18px;
+}
+.tabs-custom-style .MuiAppBar-colorPrimary {
+  color: #fff;
+  background-color: #444;
+}
+.tabs-custom-style .MuiTabs-indicator {
+  background-color: #2cf0be;
+}

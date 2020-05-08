@@ -1,0 +1,22 @@
+[
+    {
+        "_id" : "M01",
+        "name": "Customer Details",
+        "url": "/customer-details",
+        "padding": "15px"
+    },
+    {
+        "_id" : "M02",
+        "name": "Monitor",
+        "url": "#",
+        "padding": "15px",
+        "subMenus": [
+            {
+                "_id": "M021",
+                "name": "Product Details",
+                "url": "/product-details",
+                "padding": "30px"
+            }
+        ]
+    }
+]
